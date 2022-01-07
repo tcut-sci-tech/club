@@ -41,6 +41,15 @@ h4 {
   color: #ffffff;
 }
 
+h5 {
+  margin: 0 0 0 0;
+  position: relative;
+  font-size: 5.5vw;
+  text-align: center;
+  font-weight: 800;
+  color: #ffffff;
+}
+
 a {
   margin: 0 0 0 0;
   position: relative;
@@ -69,17 +78,78 @@ txt2 {
 txt3 {
   margin: 0 0 0 0;
   position: relative;
-  font-size: 2.5vw;
-  font-weight: 800;
-  color: #000000;
+  font-size: 2vw;
+  font-weight: 500;
+  color: #ffffff;
 }
 
-txt4 {
-  margin: 0 0 0 0;
+/*---------- ボタン ---------- */
+.btn06{
   position: relative;
-  font-size: 1.5vw;
-  font-weight: 500;
-  color: #2b2b2b;
+  text-decoration: none;
+	display: inline-block;
+	background:#009fe8;
+	color:#fff;
+  padding: 10px 40px 10px 30px;
+	border-radius:25px;
+  text-align: center;
+  outline: none;
+  transition: ease .2s;
+  font-size: 1.7vw;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.btn06:hover{
+  background:#4ab8f7;
+}
+
+.btnarrow2::after{
+  content: '';
+  position: absolute;
+  top:42%;
+  right: 13px;
+  width: 5px;
+  height: 5px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(45deg);
+}
+
+.btnarrow2:hover::after{
+  animation: arrow .5s;
+}
+
+@keyframes arrow {
+  50% {
+    right: 10px;
+  }
+  100% {
+    right: 13px;
+  }
+}
+
+/*---------- ボックス ---------- */
+.box {
+  position: relative;
+  margin: 2em 0;
+  padding: 25px 10px 7px;
+  border: solid 0.4vw #00a7eb;
+  background-color: #ffffff50;
+}
+
+.box .box-title {
+  position: absolute;
+  display: inline-block;
+  top: -2px;
+  left: -2px;
+  padding: 0 9px;
+  height: 2.7vw;
+  line-height: 2.5vw;
+  font-size: 2.5vw;
+  background: #00a7eb;
+  color: #ffffff;
+  font-weight: 800;
 }
 
 /*---------- セクション ---------- */
@@ -90,6 +160,19 @@ txt4 {
 }
 
 .sec04 {
+  margin: 0 0 0 0;
+	height: auto;
+	background-image: url("https://tcut-sci-tech.github.io/photo/%E5%A4%8F%E5%90%88%E5%AE%BF.jpg");
+  background-size: cover;
+}
+
+.sec06 {
+  margin: 0 0 0 0;
+	height: auto;
+	background-color: #dcdcdc;
+}
+
+.sec08 {
   margin: 0 0 0 0;
 	height: auto;
 	background-color: #2857b1;
@@ -183,9 +266,9 @@ txt4 {
 
 .g_div {
   display: inline-block;
-  width: 50%;
+  width: 65%;
   padding:0vw;
-  margin: 0vw 0.5vw 0vw 0.5vw;
+  margin: 1vw 0.5vw 0vw 0.5vw;
 }
 
 .g_div img {
@@ -196,9 +279,9 @@ txt4 {
 
 .h_div {
   display: inline-block;
-  width: 30%;
+  width:35%;
   padding:0vw;
-  margin: 0vw 0.5vw 0vw 0.5vw;
+  margin: 1vw 0.5vw 0vw 0.5vw;
 }
 
 .h_div img {
