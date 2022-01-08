@@ -83,6 +83,22 @@ txt3 {
   color: #ffffff;
 }
 
+txt4 {
+  margin: 0 0 0 0;
+  position: relative;
+  font-size: 2vw;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+txt5 {
+  margin: 0 0 0 0;
+  position: relative;
+  font-size: 2vw;
+  font-weight: 700;
+  color: #fef4f4;
+}
+
 /*---------- ボタン ---------- */
 .btn06{
   position: relative;
@@ -135,7 +151,7 @@ txt3 {
   margin: 2em 0;
   padding: 25px 10px 7px;
   border: solid 0.4vw #00a7eb;
-  background-color: #ffffff50;
+  background-color: #ffffff30;
 }
 
 .box .box-title {
