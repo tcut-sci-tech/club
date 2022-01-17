@@ -125,8 +125,8 @@ txt5 {
   position: absolute;
   left: 0;
   top: 0;
-  -webkit-animation: anime 20s 0s infinite;
-  animation: anime 20s 0s infinite;
+  -webkit-animation: anime 15s 0s infinite;
+  animation: anime 15s 0s infinite;
 }
 
 .item1:nth-of-type(2) {
@@ -137,11 +137,6 @@ txt5 {
 .item1:nth-of-type(3) {
   -webkit-animation-delay: 10s;
   animation-delay: 10s;
-}
-
-.item1:nth-of-type(4) {
-  -webkit-animation-delay: 15s;
-  animation-delay: 15s;
 }
 
 @keyframes anime {
@@ -156,7 +151,7 @@ txt5 {
   }
   50% {
     opacity: 0;
-    z-index: 12;
+    z-index: 9;
   }
   100% {
     opacity: 0;
@@ -175,7 +170,7 @@ txt5 {
   }
   50% {
     opacity: 0;
-    z-index: 12;
+    z-index: 9;
   }
   100% {
     opacity: 0;
