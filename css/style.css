@@ -154,9 +154,9 @@ txt5 {
   35% {
     opacity: 1;
   }
-  45% {
+  50% {
     opacity: 0;
-    z-index: 9;
+    z-index: 12;
   }
   100% {
     opacity: 0;
@@ -173,9 +173,9 @@ txt5 {
   35% {
     opacity: 1;
   }
-  60% {
+  50% {
     opacity: 0;
-    z-index: 9;
+    z-index: 12;
   }
   100% {
     opacity: 0;
