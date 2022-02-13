@@ -239,7 +239,7 @@ txt5 {
 
 /*---------- ボックス ---------- */
 .box30 {
-  margin: 1.5vw 0vw 1.5vw 0vw;
+  margin: 1.5vw 0vw 0vw 0vw;
   background: #f1f1f1;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
 }
