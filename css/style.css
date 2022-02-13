@@ -2,7 +2,7 @@
 
 /*---------- 文字 ---------- */
 body {
-  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+  font-family: 'M PLUS 1p', 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -17,7 +17,7 @@ h1 {
 h2 {
   margin: 0 0 0 0;
   position: relative;
-  font-size: 1.5vw;
+  font-size: 5.5vw;
   text-align: center;
   font-weight: 800;
   color: #ffffff;
@@ -26,7 +26,7 @@ h2 {
 h3 {
   margin: 0 0 0 0;
   position: relative;
-  font-size: 1.7vw;
+  font-size: 1.5vw;
   text-align: center;
   font-weight: 800;
   color: #ffffff;
@@ -35,8 +35,8 @@ h3 {
 h4 {
   margin: 0 0 0 0;
   position: relative;
-  font-size: 1.2vw;
-  text-align: right;
+  font-size: 1.7vw;
+  text-align: center;
   font-weight: 800;
   color: #ffffff;
 }
@@ -44,8 +44,8 @@ h4 {
 h5 {
   margin: 0 0 0 0;
   position: relative;
-  font-size: 5.5vw;
-  text-align: center;
+  font-size: 1.2vw;
+  text-align: right;
   font-weight: 800;
   color: #ffffff;
 }
@@ -71,32 +71,32 @@ txt2 {
   margin: 0 0 0 0;
   position: relative;
   font-size: 2vw;
-  font-weight: 700;
-  color: #0d0015;
+  font-weight: 500;
+  color: #ffffff;
 }
 
 txt3 {
   margin: 0 0 0 0;
   position: relative;
-  font-size: 2vw;
-  font-weight: 500;
-  color: #ffffff;
+  font-size: 3vw;
+  font-weight: 800;
+  color: #000000;
 }
 
 txt4 {
   margin: 0 0 0 0;
   position: relative;
-  font-size: 2vw;
-  font-weight: 500;
-  color: #ffffff;
+  font-size: 2.5vw;
+  font-weight: 800;
+  color: #cc0000;
 }
 
 txt5 {
   margin: 0 0 0 0;
   position: relative;
   font-size: 2vw;
-  font-weight: 700;
-  color: #fef4f4;
+  font-weight: 800;
+  color: #cc0000;
 }
 
 /*---------- 画像切り替え ---------- */
@@ -105,18 +105,6 @@ txt5 {
   height: 56.25vw;
   overflow: hidden;
   position: relative;
-}
-
-.title {
-  font-size: 5.5vw;
-  font-weight: 800;
-  color: #fff;
-  z-index: 11;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  text-shadow: 0.1vw 0.2vw 0.3vw #808080;
 }
 
 .item1 {
@@ -179,6 +167,30 @@ txt5 {
   }
 }
 
+/*---------- ふわぁ ---------- */
+.fadeUp{
+  animation-name:fadeUpAnime;
+  animation-duration:0.5s;
+  animation-fill-mode:forwards;
+  opacity:0;
+}
+
+@keyframes fadeUpAnime{
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeUpTrigger{
+  opacity: 0;
+}
+
 /*---------- ボタン ---------- */
 .btn06{
   position: relative;
@@ -226,26 +238,29 @@ txt5 {
 }
 
 /*---------- ボックス ---------- */
-.box {
-  position: relative;
-  margin: 2em 0;
-  padding: 25px 10px 7px;
-  border: solid 0.4vw #00a7eb;
-  background-color: #ffffff30;
+.box30 {
+  margin: 1.5vw 0vw 1.5vw 0vw;
+  background: #f1f1f1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
 }
 
-.box .box-title {
-  position: absolute;
-  display: inline-block;
-  top: -2px;
-  left: -2px;
-  padding: 0 9px;
-  height: 2.7vw;
-  line-height: 2.5vw;
-  font-size: 2.5vw;
+.box30 .box-title {
+  font-size: 3vw;
   background: #00a7eb;
+  padding: 0.3vw;
+  text-align: center;
   color: #ffffff;
-  font-weight: 800;
+  font-weight: bold;
+  letter-spacing: 0.05vw;
+}
+
+.box30 p {
+  margin: 0 0 0 0;
+  position: relative;
+  font-size: 2vw;
+  font-weight: 500;
+  color: #000000;
+  padding: 1vw 1vw 1vw 1vw;
 }
 
 /*---------- セクション ---------- */
@@ -272,6 +287,13 @@ txt5 {
   margin: 0 0 0 0;
 	height: auto;
 	background-color: #2857b1;
+}
+
+/*---------- 中心線 ---------- */
+.line {
+  margin: 1.5vw 0vw 1.5vw 0vw;
+  width: 0.2vw;
+  background-color: #a9a9a9;
 }
 
 /*---------- 画面分割 ---------- */
@@ -362,25 +384,12 @@ txt5 {
 
 .g_div {
   display: inline-block;
-  width: 65%;
+  width: 50%;
   padding:0vw;
-  margin: 1vw 0.5vw 0vw 0.5vw;
+  margin: 0vw 1vw 0vw 1vw;
 }
 
 .g_div img {
-  display: inline-block;
-	width: 100%;
-	height: auto;
-}
-
-.h_div {
-  display: inline-block;
-  width:35%;
-  padding:0vw;
-  margin: 1vw 0.5vw 0vw 0.5vw;
-}
-
-.h_div img {
   display: inline-block;
 	width: 100%;
 	height: auto;
