@@ -238,30 +238,52 @@ txt5 {
 }
 
 /*---------- ボックス ---------- */
-.box9 {
-    padding: 1vw 1vw 1vw 1vw;
-    margin: 1.5vw 0vw 1.5vw 0vw;
-    color: #ff7d6e;
-    background: #f1f1f1;
-    border-top: solid 10px #ff7d6e;
+.box30 {
+  margin: 1.5vw 0vw 0vw 0vw;
+  background: #f1f1f1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+}
+
+.box30 .box-title {
+  font-size: 3vw;
+  background: #00a7eb;
+  padding: 0.3vw;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 0.05vw;
+}
+
+.box30 p {
+  margin: 0 0 0 0;
+  position: relative;
+  font-size: 2vw;
+  font-weight: 500;
+  color: #000000;
+  padding: 1vw 1vw 1vw 1vw;
 }
 
 /*---------- セクション ---------- */
 .sec02 {
   margin: 0 0 0 0;
 	height: auto;
-  background-color: #000000;
-	background-image: url("https://tcut-sci-tech.github.io/photo/%E9%83%A8%E6%B4%BB%E5%8B%95%E8%A6%8B%E5%AD%A6.jpg");
-  background-size: cover;
+	background-color: #dcdcdc;
 }
 
 .sec04 {
   margin: 0 0 0 0;
 	height: auto;
+	background-image: url("https://tcut-sci-tech.github.io/photo/%E5%A4%8F%E5%90%88%E5%AE%BF.jpg");
+  background-size: cover;
+}
+
+.sec06 {
+  margin: 0 0 0 0;
+	height: auto;
 	background-color: #dcdcdc;
 }
 
-.sec05 {
+.sec08 {
   margin: 0 0 0 0;
 	height: auto;
 	background-color: #2857b1;
