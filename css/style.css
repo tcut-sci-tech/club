@@ -41,6 +41,10 @@ h4 {
   color: #ffffff;
 }
 
+h4:hover{
+  opacity: 0.5;
+}
+
 h5 {
   margin: 0 0 0 0;
   position: relative;
@@ -48,6 +52,10 @@ h5 {
   text-align: right;
   font-weight: 800;
   color: #ffffff;
+}
+
+h5:hover{
+  opacity: 0.5;
 }
 
 a {
@@ -265,11 +273,34 @@ txt5 {
 	background-color: #2857b1;
 }
 
-/*---------- 中心線 ---------- */
-.line {
-  margin: 1.5vw 0vw 1.5vw 0vw;
-  width: 0.2vw;
-  background-color: #a9a9a9;
+/*---------- フッター リンク ---------- */
+.op a:hover{
+	color: #fff;
+	opacity: 0.5;
+}
+
+.twitter a::before{
+  content: '';
+  display: inline-block;
+  width: 2.5vw;
+  height: 2.5vw;
+  background-image: url(https://tcut-sci-tech.github.io/photo/Logo%20twitter.png);  
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 1vw;
+}
+
+.tcu a::before{
+  content: '';
+  display: inline-block;
+  width: 2.5vw;
+  height: 2.5vw;
+  background-image: url(https://tcut-sci-tech.github.io/photo/Logo%20tcu.png);  
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 1vw;
 }
 
 /*---------- 画面分割 ---------- */
@@ -280,7 +311,7 @@ txt5 {
 
 .a_div {
   display: inline-block;
-  width: 10%;
+  width: 5%;
   padding:0vw;
   margin: 0vw 0vw 0vw 0vw;
 }
@@ -293,7 +324,7 @@ txt5 {
 
 .b_div {
   display: inline-block;
-  width: 80%;
+  width: 90%;
   padding:0vw;
   margin: 0vw 0vw 0vw 0vw;
 }
@@ -306,7 +337,7 @@ txt5 {
 
 .c_div {
   display: inline-block;
-  width: 27%;
+  width: 30%;
   padding:0vw;
   margin: 0vw 0vw 0vw 0vw;
   background-color: #009fe8;
@@ -320,7 +351,7 @@ txt5 {
 
 .d_div {
   display: inline-block;
-  width: 27%;
+  width: 30%;
   padding:0vw;
   margin: 0vw 0vw 0vw 0vw;
   background-color: #2857b1;
