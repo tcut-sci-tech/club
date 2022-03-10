@@ -3,6 +3,8 @@
 /*---------- 文字 ---------- */
 body {
   font-family: 'M PLUS 1p', 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
