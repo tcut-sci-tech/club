@@ -249,6 +249,27 @@ txt5 {
   padding: 1vw 1vw 1vw 1vw;
 }
 
+/*---------- ロード ---------- */
+#splash {
+  position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	background:#fff;
+	text-align:center;
+	color:#000;
+}
+
+#splash_text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+  z-index: 999;
+	width: 100%;
+	transform: translate(-50%, -50%);
+	color: #000;
+}
+
 /*---------- セクション ---------- */
 .sec02 {
   margin: 0 0 0 0;
