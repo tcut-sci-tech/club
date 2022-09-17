@@ -1,11 +1,11 @@
 /*---------- ロード ---------- */
 var bar = new ProgressBar.Line(splash_text, {
   easing: 'easeInOut',
-  duration: 1000,
-  strokeWidth: 0.2,
-  color: '#009fe8',
-	trailWidth: 0.4,
-  trailColor: '#000',
+  duration: 2000,
+  strokeWidth: 0.4,
+  color: '#00a7eb',
+  trailWidth: 0.4,
+  trailColor: '#fff',
   text: {
     style: {
       position: 'absolute',
@@ -13,15 +13,15 @@ var bar = new ProgressBar.Line(splash_text, {
 			top: '50%',
 			padding: '0',
 			margin: '-30px 0 0 0',
-			transform:'translate(-50%,-50%)',
-			'font-size':'1rem',
-			color: '#fff',
+      transform:'translate(-50%,-50%)',
+      'font-size':'2vw',
+      color: '#000',
 		},
     autoStyleContainer: false
-	},
+  },
   step: function(state, bar) {
     bar.setText(Math.round(bar.value() * 100) + ' %');
-	}
+  }
 });
 
 bar.animate(1.0, function () {
