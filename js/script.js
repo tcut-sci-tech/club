@@ -3,7 +3,7 @@ var bar = new ProgressBar.Line(splash_text, {
   easing: 'easeInOut',
   duration: 2000,
   strokeWidth: 0.4,
-  color: '#00a7eb',
+  color: '#00a7ea',
   trailWidth: 0.4,
   trailColor: '#fff',
   text: {
